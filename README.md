@@ -14,9 +14,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](images/_C__Users_Brian%20Segura_Desktop_FrontEndMentor_order-summary-component-main_index.html%20(1).png)
-
-
+![](images/_C__Users_Brian%2520Segura_Desktop_FrontEndMentor_order-summary-component-main_index.html%20(1).png)
 ## My process
 
 Analyzed the design presented in the starter files. Worked with HTML file first then moved to CSS.
