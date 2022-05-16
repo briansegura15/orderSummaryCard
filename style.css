@@ -1,0 +1,133 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url(./images/pattern-background-desktop.svg) no-repeat
+    hsla(225, 100%, 94%, 1);
+  background-size: contain;
+}
+
+/* main {
+  background: hsl(225, 100%, 94%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  max-width: 45rem;
+  border-radius: 2rem;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+#hero-container {
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+#main-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#card {
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+#card h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 2rem;
+  color: hsla(223, 46%, 23%, 1);
+}
+
+#container p {
+  /* width: 30ch; */
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: rgb(135, 149, 187);
+  padding-bottom: 1rem;
+}
+
+#plan {
+  text-align: left;
+}
+
+#plan-type {
+  font-size: 2rem;
+  font-weight: 900;
+  color: hsla(223, 46%, 23%, 1);
+}
+
+#plan-price {
+  font-size: 1.5rem;
+  color: rgb(135, 149, 187);
+}
+
+#price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+#change {
+  font-size: 1.5rem;
+  margin-left: 6rem;
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  color: hsla(245, 75%, 52%, 1);
+}
+
+#payment-checkout {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: hsla(245, 75%, 52%, 1);
+  padding: 1.5rem;
+  margin-top: 5rem;
+  border-radius: 1.2rem;
+  box-shadow: 0px 8px 6px rgba(7, 23, 255, 0.245);
+}
+
+#cancel-order {
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: hsla(224, 23%, 55%, 1);
+}
